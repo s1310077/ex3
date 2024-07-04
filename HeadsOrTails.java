@@ -21,5 +21,12 @@ public class HeadsOrTailsGame{
             }
         }
         System.out.println("Heads :," + heads +"Tais :"+tails);
+
+        if(heads>tails){
+            System.out.println("You win!")
+        }
+        else{
+            System.out.println("You lost!")
+        }
     }
 }
