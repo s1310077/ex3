@@ -6,6 +6,10 @@ public class HeadsOrTailsGame{
     public static void main(String[] args){
         Random random=new Random();
 
+        System.out.print("Who are you?\n>");
+        String name =scanner.nextLine();
+        System.out.println("Hello, " + name + "!");
+
         System.out.println("Tossing a coin...");
         int heads=0;
         int tails=0;
